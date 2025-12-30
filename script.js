@@ -46,7 +46,8 @@ const DrawGame = (count) =>{
     if (count === 9){
     //   count = 0;
       msg.innerText = "The game is Draw";  
-      msgContainer.classList.remove("hide");     
+      msgContainer.classList.remove("hide");
+      
     }
 };
 
